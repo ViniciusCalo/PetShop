@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="_css/agenda.css">
+    <title>Golden Rule</title>
+
+</head>
+
+<body>
+    <!--MENU DA PAGINA-->
+    <nav class="nav-bar">
+        <a href="home.html"><button><strong>Home</strong></button></a>
+        <a href="loja.html"><button><strong>Loja</strong></button></a>
+        <a href="agenda.html"><button><strong>Agenda</strong></button></a>
+        <a href="contato.html"><button><strong>Contato</strong></button></a>
+        <a href="adocao.html"><button><strong>Adoção</strong></button></a>
+    </nav>
+    <h1>Se cadastre e fale conosco</h1>
+
+    <div class="formulario">
+        <!--FORMULARIO DE AGENDAMENTO-->
+        <form action="" class="form">
+            <label for="nome">Nome: </label>
+            <hr>
+            <input type="text" id="nome" name="nome" placeholder="digite seu nome completo" required>
+            <hr>
+            <label for="cpf">CPF/CNPJ: </label>
+            <hr>
+            <input type="number" id="cpf" name="cpf" placeholder="CPF/CNPJ" required>
+            <hr>
+            <label for="email">Email: </label>
+            <hr>
+            <input type="email" id="email" name="email" placeholder="digite seu email" required>
+            <hr>
+            <label for="telefone">Telefone: </label>
+            <hr>
+            <input type="number" id="telefone" name="telefone" placeholder="(99)99999-9999" required>
+            <hr>
+
+            <label for="animal">Animal Favorito: </label> <br>
+            <select name="animalFavorito" id="animais">
+                <option value="Animais">Selecione o Animal Favorito</option>
+                <option value="Gato">Gato</option>
+                <option value="Cachorro">Cachorro</option>
+                <option value="Hamster">Hamster</option>
+                <option value="Coelho"></option>
+            </select> <br>
+
+            <button type="submit" class="enviaForm">ENVIAR</button>
+        </form>
+    </div>
+
+</body>
+
+<footer>
+    <img src="_imagens/phone-call.png" alt="phoneIcon" width="30px" height="30px">
+    <p><span><strong>(11)4566-5375</strong></span></p>
+    <p>&copy Golden Rule Pet Shop - 2022</p>
+</footer>
+
+</html>
